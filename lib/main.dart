@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_portfolio/constants.dart';
 import 'package:my_portfolio/screens/home_screens.dart';
 
 void main() {
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+       visualDensity: VisualDensity.adaptivePlatformDensity,
+        inputDecorationTheme: kDefaultInputDecorationTheme
       ),
       home:const HomeScreen(),
     );

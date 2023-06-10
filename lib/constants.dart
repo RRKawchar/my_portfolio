@@ -18,15 +18,15 @@ final kDefaultCardShadow = BoxShadow(
 );
 
 // TextField dedign
-const kDefaultInputDecorationTheme = InputDecorationTheme(
+final kDefaultInputDecorationTheme = InputDecorationTheme(
   border: kDefaultOutlineInputBorder,
   enabledBorder: kDefaultOutlineInputBorder,
   focusedBorder: kDefaultOutlineInputBorder,
 );
 
-const kDefaultOutlineInputBorder = OutlineInputBorder(
+final kDefaultOutlineInputBorder = OutlineInputBorder(
   // Maybe flutter team need to fix it on web
-  // borderRadius: BorderRadius.circular(50),
+  //  borderRadius: BorderRadius.circular(50),
   borderSide: BorderSide(
     color: Color(0xFFCEE4FD),
   ),
